@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(241, 236, 236);
+            margin: 0px;
+        }
+
+        header{
+            background-color: rgb(28, 241, 241);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 33px;
+            text-align: center;
+        }
+
+        main{
+            background-color: rgb(241, 37, 180);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 33px;
+            box-shadow: 4px 4px 9px 0px purple; 
+        }
+
+        article{
+            background-color: black;
+            color: aliceblue;
+            padding: 5px;
+            border-radius: 23px;
+        }
+
+        article> aside{
+            background-color: rgb(114, 117, 117);
+            color: white;
+            border-radius: 27px;
+            text-align: center;
+        }
+
+        footer{
+            background-color: rgb(22, 21, 21);
+            color: rgb(211, 80, 5);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 23px;
+        }
+        nav > a{
+            background-color: black;
+            color: rgb(100, 216, 23);
+            margin-right: 30px;
+            padding: 3px;
+            text-decoration: none;
+            border-radius: 30px;
+        }
+
+        nav{
+            background-color: rgb(52, 54, 54);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            border-radius: 30px;
+        }
+
+     
+
+      footer > p{
+          margin: 0px;
+      }
+
+      h1{
+          box-shadow: 1px 1px 1px rgba(36, 34, 34, 0.329);
+      }
+
+      div#bola{
+          height: 100px;
+          width: 100px;
+          margin: 10px;
+          background-color: beige;
+          border-radius: 50%;
+      }
+    </style>
+
+</head>
+<body>
+    <header>
+    <h1>Meu site</h1>
+    <nav>
+    <a href="#">Link</a>
+     <a href="#">Lihk</a>
+     <a href="#">Link</a>
+     <a href="#">Link</a>
+      <a href="#">Link</a>
+    </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+          <p>Esportes Politica Tecnologia</p>
+
+      </section>
+        </section>
+   <section id="noticias">
+       <article>
+           <h2> Noticias do Brasil</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita perferendis quia a at rem tenetur eaque fugiat, nostrum inventore eum incidunt qui laudantium, delectus rerum distinctio. Assumenda necessitatibus a error.</p>
+           <aside>
+               <p>Artigo escrito por Rodrigo Alvarenga Scola</p>
+           </aside>
+       </article>
+
+   </section>
+
+    </main>
+
+    <footer>
+  <p>Desenvolvido por Rodrigo Alvarenga Scola</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
